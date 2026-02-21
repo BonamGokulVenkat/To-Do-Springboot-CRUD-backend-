@@ -5,7 +5,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin(origins = "*") // Connects to React later
+@CrossOrigin(origins = "https://to-do-springboot-crud-frontend.vercel.app/") // Connects to React later
 public class TaskController {
     private final TaskRepository repository;
 
