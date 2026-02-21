@@ -5,7 +5,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin(origins = "http://localhost:5173") // Connects to React later
+@CrossOrigin(origins = "*") // Connects to React later
 public class TaskController {
     private final TaskRepository repository;
 
